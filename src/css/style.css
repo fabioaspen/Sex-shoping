@@ -1,0 +1,41 @@
+.preheader{
+    background-color: black;
+    height: 35px;
+    padding: 0;
+}
+.menu{
+    background-color: #f21e93;
+}
+#footer{
+    border-top: 3px solid #db087c; 
+    background-color: #232121
+}
+.bg-pink{
+    background-color: #f21e93;
+}
+.bg-grey{
+    background-color: #777;
+}
+.copright{
+    color: #fafafa; 
+    font-size: 12px;
+}
+
+@media (max-width:992px) {
+    .item1{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .item2{
+        display: none;
+    }
+    .alinhar{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .img-log{
+        display: none;
+    }
+}
